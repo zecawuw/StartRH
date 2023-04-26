@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: none !important;
+}
+
+body{
+    background-color: #171322;
+    display: flex;
+}
+
+.img-login{
+    max-width: 53%;
+}
+
+.img-login, div{
+    position: relative;
+    top: -101%;
+    background-color: #17132281;
+    height: 101vh;
+    overflow: none !important;
+}
+
+.login{
+    width: 47%;
+    height: 100vh;
+}
+
+.login > img{
+    float: right;
+}
+
+.login > h3, input{
+    position: relative;
+    top: 40%;
+    /*left: 200px;*/
+    left: 30%;
+}
+
+.login > h3{
+    width: 10px;
+    font-size: 20px;
+    color: #E1E1E6;
+    padding-bottom: 6px;
+    padding-top: 20px;
+}
+
+.login > input{
+    outline: none;
+    box-shadow:none; 
+    border-color:transparent;
+    width: 100%;
+    max-width: 300px;
+    height: 30px;
+    background-color: #282433;
+    color: #E1E1E6;
+    padding-left: 10px;
+}
