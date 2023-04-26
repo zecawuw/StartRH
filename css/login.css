@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: none !important;
+}
+
+body{
+    background-color: #171322;
+    display: flex;
+}
+
+.img-login{
+    max-width: 53%;
+}
+
+.img-login, div{
+    position: relative;
+    top: -101%;
+    background-color: #17132281;
+    height: 101vh;
+    overflow: none !important;
+}
+
