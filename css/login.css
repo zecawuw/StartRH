@@ -71,7 +71,10 @@ body{
     margin-left: 30%;
     margin-top: 30px;
     padding-left: 23px;
+}
 
+#button:hover{
+    background-color: #442588;
 }
 
 @media screen and (max-width: 1122px){
