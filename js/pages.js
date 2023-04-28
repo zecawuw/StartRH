@@ -21,3 +21,7 @@ function ferias(){
 function documentos(){
     location.href = "em_desenvolvimento.html"
 }
+
+function home(){
+    location.href = "home_funcionario.html"
+}
