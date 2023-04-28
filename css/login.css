@@ -71,6 +71,7 @@ body{
     margin-left: 30%;
     margin-top: 30px;
     padding-left: 23px;
+    cursor: pointer;
 }
 
 #button:hover{
