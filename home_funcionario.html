@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home_funcionario.css">
     <script src="js/login.js"></script>
     <title>StartRH</title>
 </head>
@@ -22,7 +23,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="img/logo.png" alt="">
+            <img onclick="home()" src="img/logo.png" alt="">
         </div>
         <div>
             <h3>Luana Tibiriça Nascimento</h3>
@@ -42,7 +43,16 @@
         </section>
 
         <section class="style">
-            
+            <div class="div1">
+                <input onclick="AReceber()" class="input" type="button" value="A Receber">
+                <input onclick="historicoHolerite()" class="input" type="button" value="Histórico Holerite">
+                <input onclick="historicoSalario()" class="input" type="button" value="Histórico Salarial">
+            </div>
+            <div>
+                <input onclick="pontoEletronico()" class="input" type="button" value="Ponto Eletrônico">
+                <input onclick="ferias()" class="input" type="button" value="Férias">
+                <input onclick="documentos()" class="input" type="button" value="Documentos">
+            </div>
         </section>
     </section>
 
