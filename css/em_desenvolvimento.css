@@ -108,7 +108,7 @@ input:hover{
 
     .img{
         width: 100%;
-        height: 100px;
+        height: 100vh;
     }
 
     div > h3 {
@@ -126,7 +126,7 @@ input:hover{
 
     .img{
         width: 100%;
-        height: 100px;
+        height: 100vh;
     }
 
 }
