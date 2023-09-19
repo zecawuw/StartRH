@@ -3,7 +3,22 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    overflow: none !important;
+    overflow: clip;
+} 
+
+::-webkit-scrollbar{
+    background-color:#171322;
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #442588;
+    border-radius: 5px;
+}
+
+body{
+    height: 100vh;
 }
 
 header{
@@ -31,7 +46,7 @@ div > h3{
 }
 
 .section{
-    height: 519px;
+    height: 100vh;
     display: flex;
     background-color: #282433;
 }
@@ -41,16 +56,17 @@ div > h3{
     display: flex;
     flex-direction: column;
     width: 200px;
+    cursor: pointer;
 }
 
 input{
     outline: none;
     box-shadow:none; 
     border-color:transparent;
-    width: 60%;
+    width: 70%;
     height: 50px;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
     background-color: #7855C3;
     color: #E1E1E6;
     cursor: pointer;
@@ -64,3 +80,62 @@ input:hover{
     margin: 0 auto;
     margin-top: 30px;
 }
+
+.material-symbols-outlined{
+    color: #E1E1E6 !important;
+    font-size: 29px !important;
+    margin-right: 50px;
+    margin-top: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.material-symbols-outlined-1{
+    color: #E1E1E6 !important;
+    font-size: 29px !important;
+    margin-right: 50px;
+    margin-top: 40px;
+    display: none;
+    cursor: pointer;
+    animation: loading 2s;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(90deg);
+	}
+}
+
+.div2{
+    display: none;
+}
+
+@media screen and (max-width: 985px) {
+    .nomeFoto{
+        display: none;
+    }
+
+    .material-symbols-outlined{
+        display: block;
+    }
+
+    #material-symbols-outlined-1{
+        display: none;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .div1{
+        display: none;
+    }
+
+    .div2{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+}
+

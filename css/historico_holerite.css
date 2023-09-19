@@ -1,0 +1,139 @@
+.receber{
+    height: 50px;
+    background-color: #7855C3;
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+div > .h3_1{
+    margin-top: 15px;
+    margin-left: 39px;
+    width: 300px;
+}
+
+div > #h3_2{
+    margin-top: 15px;
+}
+ 
+div > .h3_2{
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.style{
+    overflow: auto;
+    height: 500px;
+}
+
+.modal{
+    width: 750px;
+    height: 500px;
+    background-color: rgba(38, 19, 81, 0.839);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    display: none;
+    z-index: 999;
+}
+
+#mes-receber{
+    color: #E1E1E6;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#sair{
+    color: #E1E1E6;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    position:absolute;
+    top: 0px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.receber1{
+    width: 500px;
+    height: 50px;
+    background-color: #7855C3;
+    margin-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+}
+
+#modal_holerite{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+    z-index: 998;
+}
+
+@media screen and (max-width: 752px) {
+
+    .style{
+        overflow-x: hidden;
+    }
+
+    .receber1{
+        width: 500px;
+    }
+
+    .modal{
+        width: 550px;
+    }
+
+}
+
+@media screen and (max-width: 571px) {
+
+    
+
+    .receber{
+        width: 300px !important;
+        margin-left: 3%;
+    }
+
+    div > .h3_1{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    div > .h3_2{
+        font-size: 15px;
+        margin-right: 10px;
+        width: 130px;
+    }
+
+    .receber1{
+        width: 300px;
+    }
+
+    .modal{
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .receber1{
+        width: 300px;
+    }
+
+    .modal{
+        width: 375px;
+    }
+
+}
