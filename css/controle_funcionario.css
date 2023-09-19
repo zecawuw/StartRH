@@ -1,0 +1,149 @@
+.dados{
+    display: block;
+    margin: 0 auto;
+}
+
+.dados_funcionarios > input{
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+.dados_funcionarios > input{
+    margin-right: 0px;
+    margin-top: 50px;
+    border: 10px #282433 solid;
+    padding: 10px;
+}
+
+h4{
+    position: relative;
+    top: -10px;
+    width: 100px;
+}
+
+#ID_funcionarios{
+    width: 10%;
+    margin-top: 10px
+}
+
+
+#telefone_funcionarios{
+    width: 37%;
+    padding: 10px;
+}
+
+.modal{
+    width: 750px;
+    height: 500px;
+    background-color: rgba(38, 19, 81, 0.839);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    display: none;
+    z-index: 999;
+}
+
+#mes-receber{
+    color: #E1E1E6;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#sair{
+    color: #E1E1E6;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    position:absolute;
+    top: 0px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#modal_holerite{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+    z-index: 998;
+}
+
+.id_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.id_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.id_modal > h4{
+    top: 0px;
+}
+
+.empresa_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.empresa_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.empresa_modal > h4{
+    top: 0px;
+}
+
+@media screen and (max-width: 752px) {
+
+    .modal{
+        width: 550px;
+    }
+
+}
+
+@media screen and (max-width: 571px) {
+
+    .modal{
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .modal{
+        width: 375px;
+    }
+
+}

@@ -1,0 +1,10 @@
+.div1{
+    justify-content: space-between;
+}
+
+.input {
+    width: 250px !important;
+    height: 150px !important;
+    margin: 30px !important;
+    font-size: 29px;
+}
