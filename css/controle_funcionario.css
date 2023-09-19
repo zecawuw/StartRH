@@ -34,7 +34,7 @@ h4{
 
 .modal{
     width: 750px;
-    height: 500px;
+    height: 530px;
     background-color: rgba(38, 19, 81, 0.839);
     display: flex;
     flex-direction: column;
@@ -121,6 +121,174 @@ h4{
 }
 
 .empresa_modal > h4{
+    top: 0px;
+}
+
+.nome_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 150px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.nome_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.nome_modal > h4{
+    top: 0px;
+}
+
+.cpf_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.cpf_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.cpf_modal > h4{
+    top: 0px;
+}
+
+.telefone_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 250px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.telefone_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.telefone_modal > h4{
+    top: 0px;
+}
+
+.email_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 300px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.email_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.email_modal > h4{
+    top: 0px;
+}
+
+.funcao_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.funcao_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.funcao_modal > h4{
+    top: 0px;
+}
+
+.horaPrevista_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 400px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.horaPrevista_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.horaPrevista_modal > h4{
+    top: 0px;
+}
+
+.salario_modal{
+    background-color: #7855C3;
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    top: 450px;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 30px;
+    color: #E1E1E6;
+}
+
+.salario_modal > input{
+    padding-left: 10px;
+    margin-top: 0px !important;
+    width: auto;
+    margin-right: 0px !important;
+    float: left;
+}
+
+.salario_modal > h4{
     top: 0px;
 }
 

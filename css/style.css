@@ -6,6 +6,10 @@
     overflow: clip;
 } 
 
+input::placeholder {
+    color: #e1e1e6a2;
+  }
+
 ::-webkit-scrollbar{
     background-color:#171322;
     width: 5px;
