@@ -25,3 +25,27 @@ function documentos(){
 function home(){
     location.href = "home_funcionario.html"
 }
+
+function menu(){
+    let menu = document.getElementById("button");
+    menu.style = "display: flex"
+
+    let bottunMenu1 = document.getElementById("material-symbols-outlined-1");
+    bottunMenu1.style = "display: block"
+
+    let bottunMenu = document.getElementById("material-symbols-outlined");
+    bottunMenu.style = "display: none"
+
+}
+
+function menu1(){
+    let menu = document.getElementById("button");
+    menu.style = "display: none"
+
+    let bottunMenu1 = document.getElementById("material-symbols-outlined");
+    bottunMenu1.style = "display: block"
+
+    let bottunMenu = document.getElementById("material-symbols-outlined-1");
+    bottunMenu.style = "display: none"
+
+}
