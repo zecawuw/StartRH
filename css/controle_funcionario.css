@@ -15,13 +15,29 @@
     padding: 10px;
 }
 
+.dados_Pessoas_id{
+    margin-left: 17px;
+}
+
+.dados_Pessoas_nome{
+    margin-left: 36px;
+}
+
+.dados_Pessoas_e{
+    margin-left: 222px;
+}
+
+.dados_Pessoas_tel{
+    margin-left: 212px;
+}
+
 h4{
     position: relative;
     top: -10px;
     width: 100px;
 }
 
-#ID_funcionarios{
+#ID_funcionarios{ 
     width: 10%;
     margin-top: 10px
 }

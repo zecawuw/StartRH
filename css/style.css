@@ -115,6 +115,8 @@ input:hover{
 }
 
 @media screen and (max-width: 985px) {
+
+
     .nomeFoto{
         display: none;
     }
@@ -139,6 +141,12 @@ input:hover{
         display: flex;
         flex-direction: column;
         padding: 30px;
+        overflow: auto;
+        height: 764px;
+    }
+
+    .style {
+        height: 730px !important;
     }
 
 }
