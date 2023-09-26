@@ -1,57 +1,57 @@
 function AReceber(){
-    location.href = "a_receber.html"
+    location.href = "../html/a_receber.html"
 }
 
 function historicoHolerite(){
-    location.href = "historico_holerite.html"
+    location.href = "../html/historico_holerite.html"
 }
 
 function historicoSalario(){
-    location.href = "em_desenvolvimento.html"
+    location.href = "../html/em_desenvolvimento.html"
 }
 
 function pontoEletronico(){
-    location.href = "em_desenvolvimento.html"
+    location.href = "../html/em_desenvolvimento.html"
 }
 
 function ferias(){
-    location.href = "em_desenvolvimento.html"
+    location.href = "../html/em_desenvolvimento.html"
 }
 
 function documentos(){
-    location.href = "em_desenvolvimento.html"
+    location.href = "../html/em_desenvolvimento.html"
 }
 
 function home(){
-    location.href = "home_funcionario.html"
+    location.href = "../html/home_funcionario.html"
 }
 
 function homeRH(){
-    location.href = "home_rh.html"
+    location.href = "../html/home_rh.html"
 }
 
 function Gfuncionarios(){
-    location.href = "controle_funcionario.html"
+    location.href = "../html/controle_funcionario.html"
 }
 
 function Gempresas(){
-    location.href = "controle_empresas.html"
+    location.href = "../html/controle_empresas.html"
 }
 
 function agendar(){
-    location.href = "agendar_pagamento.html"
+    location.href = "../html/agendar_pagamento.html"
 }
 
 function Hpagamento(){
-    location.href = "historico_pagamento.html"
+    location.href = "../html/historico_pagamento.html"
 }
 
 function Gponto(){
-    location.href = "em_desenvolvimento_rh.html"
+    location.href = "../html/em_desenvolvimento_rh.html"
 }
 
 function Gferias(){
-    location.href = "em_desenvolvimento_rh.html"
+    location.href = "../html/em_desenvolvimento_rh.html"
 }
 
 function menu(){
