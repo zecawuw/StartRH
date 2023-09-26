@@ -4,7 +4,7 @@ function logar(){
     var senha = document.getElementById('senha').value;
     
     if(login == "funcionario" && senha == "admin"){
-        location.href = "../home_funcionario.html"
+        location.href = "../html/home_funcionario.html"
     }else if(login == "rh" && senha == "admin"){
         location.href = "../html/home_rh.html"
     }else{
