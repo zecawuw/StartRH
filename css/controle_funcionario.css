@@ -2,28 +2,39 @@
     display: block;
     margin: 0 auto;
     margin-top: 55px;
+    margin-left: 10px;
+    overflow: auto;
+    height: 500px;
+}
+
+.pesquisa{
+    position: relative;
+    left: 60%;
+    height: 30px;
+    width: 300px;
+    top: -96%;
 }
 
 #pesquisar_funcionarios{
     position: relative;
-    left: 60%;
     height: 30px;
     width: 300px;
-    top: -101%;
-    padding-left: 10px;
+    top: -111%;
+    padding-left: 35px;
     color: #E1E1E6;
+    z-index: 998;
 }
 
 .pesquisar_funcionarios{
     position: relative;
-    left: 60%;
+    left: 26%;
     height: 30px;
-    width: 300px;
-    top: -90.5%;
+    width: 28px;
+    top: -122.5%;
     font-size: 20px !important;
-    padding-left: 10px;
     color: #E1E1E6;
     z-index: 999;
+    display: block;
 }
 
 .dados_funcionarios > input{
@@ -38,25 +49,47 @@
     padding: 10px;
 }
 
+.dados_funcionario > input{
+    margin-right: 0px;
+    margin-top: 50px; 
+}
+
+.dados_funcionario > input{
+    margin-right: 0px;
+    margin-top: 50px;
+    border: 10px #282433 solid;
+    padding: 10px;
+}
+
+/* .dados_pessoas{
+    width: 100% !important;
+    display: inline-block;
+} */
+
 .dados_Pessoas_id{
     width: 40px;
-    display: block;
     margin-left: 2%;
 }
 
 .dados_Pessoas_nome{
-    margin-left: 2%;
+    margin-left: 20%;
     width: 52px;
+    position: absolute;
+    top: 23%;
 }
 
 .dados_Pessoas_e{
-    margin-left: 31%;
+    margin-left: 42%;
     width: 57px;
+    position: absolute;
+    top: 23%;
 }
 
 .dados_Pessoas_tel{
-    margin-left: 29%;
+    margin-left: 64%;
     width: 75px;
+    position: absolute;
+    top: 23%;
 }
 
 h4{
@@ -338,17 +371,42 @@ h4{
 
 @media screen and (max-width: 752px) {
 
+    .pesquisa{
+        position: relative;
+        left: 49%;
+        height: 30px;
+        width: 300px;
+        top: -96%;
+        padding-left: 35px;
+        color: #E1E1E6;
+    }
+
     #pesquisar_funcionarios{
-        left: 50%;
-        width: 140px;
+        width: 200px;
+        top: -109%;
+    }
+
+    .pesquisar_funcionarios{
+        left: 26.5%;
+        top: -116.5%;
     }
 
     .modal{
         width: 550px;
+        top: -105%;
     }
 
+    .dados{
+        margin-left: 0px;
+    }
 
     .dados_funcionarios{
+        font-size: 13px !important;
+        margin-right: 0px;
+        
+    }
+
+    .dados_funcionario{
         font-size: 13px !important;
         margin-right: 0px;
         
@@ -413,15 +471,25 @@ h4{
 
 }
 
-@media screen and (max-width: 593px) {
-
-
-}
 
 @media screen and (max-width: 571px) {
 
     .modal{
         width: 400px;
+    }
+
+    .pesquisa{
+        left: 16%;
+        
+    }
+
+    #pesquisar_funcionarios{
+        width: 150px;
+    }
+
+    .pesquisar_funcionarios{
+        left: 37.5%;
+        top: -116.5%;
     }
 
 }
